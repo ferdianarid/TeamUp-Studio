@@ -1,0 +1,35 @@
+/* font size global */
+
+p {
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+/* custom brand color */
+
+.brand-color {
+    background-color: #38354E;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    padding-top: 35px;
+    width: 20%;
+}
+
+.container {
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.navigation {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+}
