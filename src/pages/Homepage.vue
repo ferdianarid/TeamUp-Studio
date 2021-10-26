@@ -2,11 +2,15 @@
 // import Navbar component
 import Navbar from "../components/Header/Navbar.vue"
 
+// import Hero Component
+import Hero from "../components/Header/Hero.vue"
+
 export default {
        data() {
        },
        components: {
-              Navbar
+              Navbar,
+              Hero
        }
 }
 </script>
@@ -15,6 +19,8 @@ export default {
        <div>
               <!-- Render Navbar Component -->
               <Navbar />
+              <!-- Render Hero Component -->
+              <Hero />
        </div>
 </template>
 

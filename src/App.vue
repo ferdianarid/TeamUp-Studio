@@ -1,4 +1,5 @@
 <script>
+// import Homepage Component
 import Homepage from "./pages/Homepage.vue"
 
 export default {
