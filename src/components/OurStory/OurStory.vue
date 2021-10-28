@@ -1,6 +1,6 @@
 <template>
        <div class="our-story w-full text-center font-bold text-4xl pb-7">
-              <img class="pt-10" src="../../assets/images/world.png" alt="world image" srcset="">
+              <img class="" src="../../assets/images/world.png" alt="world image" srcset="">
               <div class="w-full h-48 mt-9 grid grid-cols-3">
                      <div class="text-white">
                             <p class="text-5xl">100+</p>

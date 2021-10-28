@@ -11,6 +11,9 @@ import OurStory from "../components/OurStory/OurStory.vue"
 // Import Content Story Component
 import ContentStory from "../components/OurStory/ContentStory.vue"
 
+// Import Partner Component
+import Partner from "../components/Partner/Partner.vue"
+
 export default {
        data() {
        },
@@ -19,7 +22,8 @@ export default {
               Navbar,
               Hero,
               OurStory,
-              ContentStory
+              ContentStory,
+              Partner
        }
 }
 </script>
@@ -34,6 +38,7 @@ export default {
                      <OurStory />
               </div>
               <ContentStory />
+              <Partner />
        </div>
 </template>
 
