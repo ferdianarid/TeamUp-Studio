@@ -5,7 +5,7 @@
 <template>
        <div class="navbar h-24 brand-color">
               <div class="brand h-24  container">
-                     <img src="../../assets/eclipse.png" alt="" srcset="" class="w-10">
+                     <img src="../../assets/images/eclipse.png" alt="" srcset="" class="w-10">
                      <h3>TeamUp Studio</h3>
               </div>
               <div class="navigation d-flex text-white">

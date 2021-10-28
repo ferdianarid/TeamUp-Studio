@@ -9,8 +9,5 @@ import "../dist/tailwind.css"
 // import custom css
 import "../src/assets/stylesheets/index.css"
 
-// import responsive css
-import "../src/assets/stylesheets/responsive.css"
-
 // mount app
 createApp(App).mount('#app')

@@ -5,6 +5,7 @@ import Homepage from "./pages/Homepage.vue"
 export default {
 	data() {
 	},
+	// Use Component
 	components: {
 		Homepage
 	}
