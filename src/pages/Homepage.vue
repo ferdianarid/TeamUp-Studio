@@ -17,18 +17,22 @@ import Partner from "../components/Partner/Partner.vue"
 // Import Service Component
 import  Service from "../components/Service/Service.vue"
 
+// Import Portfolio Component
+import Portfolio from "../components/Service/Portfolio.vue"
+
 export default {
        data() {
        },
        // use Component
        components: {
-              Navbar,
-              Hero,
-              OurStory,
-              ContentStory,
-              Partner,
-              Service
-       }
+    Navbar,
+    Hero,
+    OurStory,
+    ContentStory,
+    Partner,
+    Service,
+    Portfolio
+}
 }
 </script>
 <template>
@@ -48,6 +52,8 @@ export default {
               <Partner />
               <!-- Service Component -->
               <Service />
+              <!-- Portfolio Component -->
+              <Portfolio />
        </div>
 </template>
 

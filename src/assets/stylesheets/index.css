@@ -95,4 +95,19 @@ p, a {
   background-color: #060322;
 }
 
+.partner {
+  padding-left: 110px;
+  padding-right: 110px;
+  height: auto;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.partner .paragraph {
+  font-size: 20px;
+}
+
+.servicess {
+  background-color: #060322 !important;
+}
+
 /*# sourceMappingURL=index.css.map */
