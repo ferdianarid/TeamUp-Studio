@@ -20,19 +20,27 @@ import  Service from "../components/Service/Service.vue"
 // Import Portfolio Component
 import Portfolio from "../components/Service/Portfolio.vue"
 
+// Import Tesimonial Component
+import Testimonial from "../components/Testimonial/Testimonial.vue"
+
+// Import Contact Us Component
+import Contact from "../components/Contact/ContactUs.vue" 
+
 export default {
        data() {
        },
        // use Component
        components: {
-    Navbar,
-    Hero,
-    OurStory,
-    ContentStory,
-    Partner,
-    Service,
-    Portfolio
-}
+              Navbar,
+              Hero,
+              OurStory,
+              ContentStory,
+              Partner,
+              Service,
+              Portfolio,
+              Testimonial,
+              Contact
+       }
 }
 </script>
 <template>
@@ -54,6 +62,10 @@ export default {
               <Service />
               <!-- Portfolio Component -->
               <Portfolio />
+              <!-- Testimonial Component -->
+              <!-- <Testimonial /> -->
+              <!--  Contact Us -->
+              <Contact />
        </div>
 </template>
 
