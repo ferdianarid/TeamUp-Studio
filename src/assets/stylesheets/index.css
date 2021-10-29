@@ -110,4 +110,16 @@ p, a {
   background-color: #060322 !important;
 }
 
+.portfolio {
+  padding-left: 110px;
+  padding-right: 110px;
+  background-color: #060322;
+}
+.portfolio .card-image img {
+  height: 300px;
+}
+.portfolio .card-image .category {
+  font-size: 13px;
+}
+
 /*# sourceMappingURL=index.css.map */
