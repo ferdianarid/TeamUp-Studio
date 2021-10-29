@@ -1,6 +1,8 @@
-# Vue 3 + Vite
-
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# TeamUp Studio
+<img src="https://raw.githubusercontent.com/ferdianar/TeamUp-Studio/master/Header.png?token=AOSWFVRNMNDTGUYDM74TAM3BPNYKC />
+TeamUp! Studio is a multidiciplinary design studio specialized in ui/ux design, branding identity, custom illustrations & icons and graphic design. We are a team of project managers, designers, developers & illustrators that ready to work with you to break through your visual roadblocks.
+          
+TeamUp is a 
 
 ## Recommended IDE Setup
 
