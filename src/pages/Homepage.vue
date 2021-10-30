@@ -24,7 +24,10 @@ import Portfolio from "../components/Service/Portfolio.vue"
 import Testimonial from "../components/Testimonial/Testimonial.vue"
 
 // Import Contact Us Component
-import Contact from "../components/Contact/ContactUs.vue" 
+import Contact from "../components/Contact/ContactUs.vue"
+
+// import Footer Component
+import Footer from "../components/Footer/Footer.vue"
 
 export default {
        data() {
@@ -39,7 +42,8 @@ export default {
               Service,
               Portfolio,
               Testimonial,
-              Contact
+              Contact,
+              Footer
        }
 }
 </script>
@@ -66,6 +70,8 @@ export default {
               <!-- <Testimonial /> -->
               <!--  Contact Us -->
               <Contact />
+              <!-- Footer Component -->
+              <Footer />
        </div>
 </template>
 
