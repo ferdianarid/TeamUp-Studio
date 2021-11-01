@@ -153,10 +153,19 @@ p, a {
     padding: 30px 0;
   }
 
-  .collaborate {
-    margin-left: -70px;
+  .plan {
     width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
     padding-right: 30px;
+  }
+
+  .partner {
+    display: flex;
+    flex-direction: column;
+    width: 113%;
+    margin-left: -70px;
   }
 }
 .our-story {
@@ -175,11 +184,10 @@ p, a {
 }
 
 .partner {
+  height: auto;
+  background-color: #060322;
   padding-left: 110px;
   padding-right: 110px;
-  height: auto;
-  padding-left: 140px;
-  padding-right: 140px;
 }
 .partner .paragraph {
   font-size: 20px;
