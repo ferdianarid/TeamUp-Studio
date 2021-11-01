@@ -142,6 +142,8 @@ p, a {
 .footer {
   padding: 90px 110px 70px 110px;
   background-color: #060322;
+  background-image: url("../images/abstract.svg");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=index.css.map */
