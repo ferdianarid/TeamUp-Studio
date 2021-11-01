@@ -179,9 +179,46 @@ p, a {
     width: 90%;
     padding-left: 0;
     margin: 0;
-    margin-left: 8%;
+    margin-left: 7%;
     display: flex;
     flex-direction: column;
+  }
+
+  .portfolio {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .portfolio .portfolio-heading {
+    width: 200%;
+    margin-left: -40%;
+  }
+  .portfolio .portfolios {
+    width: 360%;
+    padding-left: 0;
+    margin-left: -40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .portfolio .portfolios .duoCard {
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    margin-left: -25%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .portfolio .portfolios .duoCard .card-image {
+    margin-bottom: 40px;
+  }
+  .portfolio .portfolios .duoCard .card-image img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .portfolio .portfolios .single img {
+    object-fit: cover;
   }
 }
 .our-story {
