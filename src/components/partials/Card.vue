@@ -1,6 +1,7 @@
 <template>
-       <div>
-              {{ data }}
+       <div class="card w-1/3 bg-white h-auto rounded-lg p-4 text-left shadow-xl">
+              <h1 class="text-2xl font-bold pb-3">Lorem, ipsum.</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur</p>
        </div>
 </template>
 
@@ -8,7 +9,7 @@
 export default {
        data() {
               return {
-                     data
+                     data: null
               }
        },
        mounted() {
@@ -17,4 +18,12 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.card {
+       position: absolute;
+       z-index: 2;
+       top: 139%;
+       right: 19%;
+       display: none;
+}
+</style>
