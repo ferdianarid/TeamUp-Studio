@@ -126,6 +126,16 @@ p, a {
   .our-story .coverage .counter .numbers {
     font-size: 47px;
   }
+  .our-story .card {
+    top: 180%;
+    width: 70%;
+  }
+  .our-story .card h1 {
+    font-size: 24px;
+  }
+  .our-story .card p {
+    font-size: 14px;
+  }
 
   .content-story {
     width: 100%;
@@ -292,6 +302,10 @@ p, a {
 .button-secondary {
   background-color: transparent;
   border: 2px solid #6B4EE6;
+  transition: 0.3s ease-out;
+}
+.button-secondary:hover {
+  background-color: #6B4EE6;
 }
 
 .btnLight {
@@ -309,6 +323,14 @@ p, a {
 .footer {
   padding: 90px 110px 70px 110px;
   background-color: #060322;
+}
+
+.card {
+  position: absolute;
+  z-index: 2;
+  top: 139%;
+  right: 19%;
+  display: none;
 }
 
 /*# sourceMappingURL=index.css.map */

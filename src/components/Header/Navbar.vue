@@ -1,5 +1,4 @@
 <script>
-
 </script>
 
 <template>
@@ -9,9 +8,9 @@
                      <h3>TeamUp Studio</h3>
               </div>
               <div class="navigation d-flex text-white">
-                     <a class="nav-link">Homepage</a>
-                     <a class="nav-link">Portfolio</a>
-                     <a class="nav-link">About Us</a>
+                     <a class="nav-link" href="/">Homepage</a>
+                     <a class="nav-link" href="/portfolio">Portfolio</a>
+                     <a class="nav-link" href="/about">About Us</a>
               </div>
        </div>
 </template>
