@@ -67,7 +67,7 @@ export default {
               <!-- Portfolio Component -->
               <Portfolio />
               <!-- Testimonial Component -->
-              <!-- <Testimonial /> -->
+              <Testimonial />
               <!--  Contact Us -->
               <Contact />
               <!-- Footer Component -->

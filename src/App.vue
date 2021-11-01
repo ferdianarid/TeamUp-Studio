@@ -17,6 +17,9 @@ export default {
 </template>
 
 <style>
+html {
+	scroll-behavior: smooth;
+}
 #app {
 	font-family: "Nunito Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;

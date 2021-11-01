@@ -133,10 +133,15 @@ p, a {
 
 .contact {
   height: 700px;
-  background-image: url("../images/testimonial.png");
+  background-image: url("../images/testimonial.jpg");
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.footer {
+  padding: 90px 110px 70px 110px;
+  background-color: #060322;
 }
 
 /*# sourceMappingURL=index.css.map */
