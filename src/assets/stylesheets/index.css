@@ -58,28 +58,38 @@ p, a {
   animation: bounce 3s infinite;
 }
 
-.navigation {
-  width: 100%;
+@media screen and (max-width: 726px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+    transition: 0.2s ease-out;
+  }
+  .navbar .navigation {
+    width: 100%;
+  }
+  .navbar .brand {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navbar .brand h3 {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    padding-left: 8px;
+  }
+  .navbar .navbar {
+    display: flex;
+    flex-direction: column;
+  }
 }
-.navigation .brand {
-  width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.navigation h3 {
-  display: flex;
-  color: #FFF;
-  font-weight: bold;
-  font-size: 23px;
-}
-.navigation .navbar {
-  display: flex;
-  flex-direction: column;
-}
-
 .our-story {
   height: auto;
   padding-left: 140px;
