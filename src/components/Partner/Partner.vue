@@ -1,5 +1,5 @@
 <template>
-<div class="content-story w-full h-auto pt-16 pb-16 grid grid-cols-2">
+<div class="content-story collaborate w-full h-auto pt-16 pb-16 grid grid-cols-2">
               <div>
                      <h1 class="font-extrabold pt-16 leading-snug text-white text-left text-5xl">We Have Collaborated With</h1>
               </div>

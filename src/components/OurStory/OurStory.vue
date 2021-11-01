@@ -1,17 +1,17 @@
 <template>
        <div class="our-story w-full text-center font-bold text-4xl pb-5">
               <img class="world" src="../../assets/images/world.png" alt="world image" srcset="">
-              <div class="w-full h-48 mt-9 grid grid-cols-3">
-                     <div class="text-white">
-                            <p class="text-5xl">100+</p>
+              <div class="coverage w-full h-48 mt-9 grid grid-cols-3">
+                     <div class="text-white counter">
+                            <p class="numbers text-5xl">100+</p>
                             <p class="paragraph">Clients</p>
                      </div>
-                     <div class="text-white">
-                            <p class="text-5xl">150+</p>
+                     <div class="text-white counter">
+                            <p class="numbers text-5xl">150+</p>
                             <p class="paragraph">Projects</p>
                      </div>
-                     <div class="text-white">
-                            <p class="text-5xl">10</p>
+                     <div class="text-white counter">
+                            <p class="numbers text-5xl">10</p>
                             <p class="paragraph">Country</p>
                      </div>
               </div>
