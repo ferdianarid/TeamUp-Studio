@@ -188,6 +188,7 @@ p, a {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
+    overflow: hidden;
   }
   .portfolio .portfolio-heading {
     width: 200%;
@@ -219,6 +220,32 @@ p, a {
   }
   .portfolio .portfolios .single img {
     object-fit: cover;
+  }
+
+  .button-secondary {
+    padding: 12px 48px;
+    margin-top: -8%;
+    width: 140%;
+    margin-left: -22%;
+    margin-bottom: 18%;
+  }
+  .button-secondary p {
+    font-size: 20px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: -10%;
+    margin-left: -18%;
+    width: 118%;
+    padding-right: 10px;
+  }
+  .footer .footer-left {
+    width: 100%;
+  }
+  .footer .footer-left h1 {
+    font-size: 40px;
   }
 }
 .our-story {
