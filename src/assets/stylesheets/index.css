@@ -45,10 +45,13 @@ p, a {
 
 .hero {
   height: 600px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   padding-left: 110px;
   padding-right: 110px;
   display: flex;
+}
+.hero .title-headings {
+  font-family: "Nunito", sans-serif;
 }
 .hero .button-main {
   background-color: #6B4EE6;
@@ -174,7 +177,7 @@ p, a {
   .partner {
     display: flex;
     flex-direction: column;
-    width: 117.5%;
+    width: 116%;
     margin-left: -70px;
     overflow: hidden;
   }
@@ -273,12 +276,18 @@ p, a {
   padding-right: 110px;
   background-color: #060322;
 }
+.content-story .title-heading h1 {
+  font-family: "Nunito", sans-serif;
+}
 
 .partner {
   height: auto;
   background-color: #060322;
   padding-left: 110px;
   padding-right: 110px;
+}
+.partner h1 {
+  font-family: "Nunito", sans-serif;
 }
 .partner .paragraph {
   font-size: 20px;
@@ -287,11 +296,17 @@ p, a {
 .servicess {
   background-color: #060322 !important;
 }
+.servicess h1 {
+  font-family: "Nunito", sans-serif;
+}
 
 .portfolio {
   padding-left: 110px;
   padding-right: 110px;
   background-color: #060322;
+}
+.portfolio h1 {
+  font-family: "Nunito", sans-serif;
 }
 .portfolio .card-image img {
   height: 300px;
@@ -320,10 +335,16 @@ p, a {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.contact h1 {
+  font-family: "Nunito", sans-serif;
+}
 
 .footer {
   padding: 90px 110px 70px 110px;
   background-color: #060322;
+}
+.footer h1 {
+  font-family: "Nunito", sans-serif;
 }
 
 .card {
