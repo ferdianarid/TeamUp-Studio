@@ -4,7 +4,6 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 // import tailwind css dist
-import "../dist/tailwind.css"
 
 // import custom css
 import "../src/assets/stylesheets/index.css"
