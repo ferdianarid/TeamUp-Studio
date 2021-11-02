@@ -1,5 +1,5 @@
 <template>
-       <button data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1000" data-aos-delay="800" class="mt-12 button-main p-4 pl-12 pr-12 rounded-md">
+       <button data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1000" data-aos-delay="500" class="mt-12 button-main p-4 pl-12 pr-12 rounded-md">
               <p class="text-2xl font-semibold text-white"> Contact Us </p>
        </button>
 </template>
