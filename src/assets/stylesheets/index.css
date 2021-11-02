@@ -176,6 +176,7 @@ p, a {
     flex-direction: column;
     width: 120.1%;
     margin-left: -70px;
+    overflow: hidden;
   }
 
   .servicess {
