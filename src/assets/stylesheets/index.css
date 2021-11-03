@@ -198,6 +198,12 @@ p, a {
     flex-direction: column;
   }
 
+  .testimonial {
+    margin-left: -20%;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
   .portfolio {
     width: 100%;
     padding-left: 0px;
