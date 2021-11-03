@@ -355,4 +355,25 @@ p, a {
   display: none;
 }
 
+.testimonial {
+  padding-top: 100px;
+  padding-left: 110px;
+  font-family: "Nunito", sans-serif;
+  background-color: #060322;
+  padding-bottom: 100px;
+}
+.testimonial .titleTestimonial {
+  padding-left: 20px;
+  padding-top: 40px;
+  width: 100%;
+}
+.testimonial .carouselUsers {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 78px;
+  width: 90%;
+  margin-right: 10%;
+  background-color: #38354E;
+}
+
 /*# sourceMappingURL=index.css.map */
