@@ -16,8 +16,5 @@ app.use(AOS.init())
 // import tailwind css dist
 import "../src/tailwind.css"
 
-// import custom css
-import "../src/assets/stylesheets/index.css"
-
 // mount app
 app.mount('#app')
