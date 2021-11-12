@@ -1,7 +1,7 @@
 <template>
               <!-- Navbar Component -->
               <div class="font-sans antialiased" id="app">
-                            <nav class="navbar flex brand-color text-white items-center justify-between flex-wrap pl-6 pr-6 bg-transparent p-6 md:px-24">
+                            <nav class="navbar flex brand-color text-white items-center justify-between flex-wrap pl-6 pr-6 bg-transparent p-6 lg:px-24">
                                    <!-- Brand and Logos -->
                                    <div class="flex items-center flex-no-shrink mr-6">
                                           <img src="../../src/assets/images/eclipse.png" alt="brandlogo" width="48">
@@ -29,38 +29,41 @@
                                    </div>
                             </div>
                      </nav>
-              </div> 
+              </div>
+              
               <div class="background-color">
+                     <!-- Wrapper -->
+              <div id="container">
               <!-- Hero Component -->
-              <div class="hero flex-col container w-full flex md:flex-row">
+              <div class="hero flex-col container w-full flex lg:flex-row">
               <!-- Title and Subtitle -->
-                     <div class="heading w-full px-5 md:w-2/3 md:px-24 md:pt-24">
+                     <div class="heading w-full px-5 lg:w-2/3  lg:pt-24">
                             <h1 class="leading-tight pt-14 text-5xl text-white font-extrabold">We help you to visualize your business.</h1>
                             <p class="leading-normal pt-5 paragraph text-white text-xl font-medium">Magna do elit duis reprehenderit. Anim qui sint deserunt deserunt proident excepteur cupidatat excepteur. proident excepteur cupidatat excepteur.</p>
                             <!-- Button Contact Us -->
-                            <button class="mt-12 button-main p-4 pl-12 pr-12 rounded-md bg-blue-500">
+                            <button class="mt-12 button-main p-4 pl-12 pr-12 rounded-lg bg-blue-500">
                                    <p class="text-2xl font-semibold text-white"> Contact Us </p>
                             </button>
                      </div>
                      <!-- Image Illustration -->
-                     <div class="pl-8 pr-14 py-20 md:px-0 md:w-1/3 md:pt-24 md:pb-5">
+                     <div class="pl-8 pr-14 py-20 lg:px-0 lg:w-1/3 lg:pt-24 lg:pb-5">
                             <img src="../../src/assets/images/scarrerrow.png" alt="" srcset="">
                      </div>
               </div>
               <!-- World Banner -->
-              <div class="w-full text-center mt-5 font-bold md:text-3xl pb-5 md:px-40 md:mt-40">
-              <img class="px-10 md:px-0" src="../../src/assets/images/world.png" alt="world image" srcset="">
-              <div class="w-full h-48 mt-10 grid grid-cols-3 px-10 md:px-0">
+              <div class="w-full text-center mt-5 font-bold lg:text-3xl pb-5 lg:px-40 lg:mt-40">
+              <img class="px-10 lg:px-0" src="../../src/assets/images/world.png" alt="world image" srcset="">
+              <div class="w-full h-48 mt-10 grid grid-cols-3 px-10 lg:px-0">
                      <div class="text-white counter">
-                            <p class="text-3xl md:text-5xl">100</p>
+                            <p class="text-3xl lg:text-5xl">100</p>
                             <p class="paragraph">Clients</p>
                      </div>
                      <div class="text-white counter">
-                            <p class="text-3xl md:text-5xl">150</p>
+                            <p class="text-3xl lg:text-5xl">150</p>
                             <p class="paragraph">Projects</p>
                      </div>
                      <div class="text-white counter">
-                            <p class="text-3xl md:text-5xl">10</p>
+                            <p class="text-3xl lg:text-5xl">10</p>
                             <p class="paragraph">Country</p>
                      </div>
               </div>
@@ -72,23 +75,23 @@
                      <p>Lorem ipsum dolor, sit amet consectetur</p>
               </div> -->
               <!-- Content Story -->
-              <div class="w-full h-auto pt-20 px-5 md:pt-40 flex pb-20 text-white flex-col md:flex-row md:px-32 brand-secondary-color">
+              <div class="w-full h-auto pt-20 px-5 lg:pt-40 flex pb-20 text-white flex-col lg:flex-row lg:px-32 brand-secondary-color" style="min-width: 1440px;">
                      <!-- Heading -->
-                     <div class="w-full md:w-1/2">
-                            <h1 class="font-extrabold md:leading-snug leading-tight text-left text-5xl">We Will Help Your Plans With Design</h1>
+                     <div class="w-full lg:w-1/2">
+                            <h1 class="font-extrabold lg:leading-snug leading-tight text-left text-5xl">We Will Help Your Plans With Design</h1>
                      </div>
                      <!-- Subtitle -->
-                     <div class="w-full md:w-1/2">
-                            <p class="leading-normal pt-6 text-left md:pl-3 md:pt-3 text-xl md:px-0">Magna do elit duis reprehenderit. Anim qui sint deserunt deserunt proident excepteur cupidatat excepteur. elit duis reprehenderit. Anim qui sint deserunt deserunt proident excepteur cupidatat excepteur.</p>
-                            <p class="text-right pt-10 text-lg md:pt-5 font-medium">Read our story</p>
+                     <div class="w-full lg:w-1/2">
+                            <p class="leading-normal pt-6 text-left lg:pl-3 lg:pt-3 text-xl lg:px-0">Magna do elit duis reprehenderit. Anim qui sint deserunt deserunt proident excepteur cupidatat excepteur. elit duis reprehenderit. Anim qui sint deserunt deserunt proident excepteur cupidatat excepteur.</p>
+                            <p class="text-right pt-10 text-lg lg:pt-5 font-medium">Read our story</p>
                      </div>
               </div>
               <!-- Partner -->
-              <div class="brand-secondary-color w-full flex-col md:flex-row h-auto flex md:px-24">
-                     <div class="w-full md:w-1/2">
-                            <h1 class="font-extrabold md:pt-16 leading-tight px-5 md:leading-snug text-white text-left text-5xl">We Have Collaborated With</h1>
+              <div class="brand-secondary-color w-full flex-col lg:flex-row h-auto flex lg:px-24">
+                     <div class="w-full lg:w-1/2">
+                            <h1 class="font-extrabold lg:pt-16 leading-tight px-5 lg:leading-snug text-white text-left text-5xl">We Have Collaborated With</h1>
                      </div>
-                     <div class="w-full md:w-1/2 flex h-auto">
+                     <div class="w-full lg:w-1/2 flex h-auto">
                             <div class="w-full">
                                    <img class="w-full" src="../../src/assets/images/spotify.png" alt="">
                                    <img class="w-full" src="../../src/assets/images/youtube.png" alt="">
@@ -101,25 +104,26 @@
               </div>
               <!-- Provide Service -->
               <div class="w-full brand-secondary-color py-12 bg-secondary-color h-auto">
-               <div class="flex flex-col mx-5 md:grid md:grid-cols-3 md:gap-7 md:ml-28 md:mr-28">
+               <div class="flex flex-col mx-5 lg:grid lg:grid-cols-3 lg:gap-7 lg:ml-28 lg:mr-28">
                       <div class="">
-                             <h1 class="my-10 md:pt-4 md:leading-snug text-white text-left text-5xl font-extrabold">We can help you with</h1>
+                             <h1 class="my-10 lg:pt-4 lg:leading-snug text-white text-left text-5xl font-extrabold">We can help you with</h1>
                       </div>
-                      <div class="mb-10 md:mb-0">
+                      <div class="mb-10 lg:mb-0">
                              <img src="../../src/assets/images/graphic.png" alt="">
                       </div>
-                      <div class="mb-10 md:mb-0">
+                      <div class="mb-10 lg:mb-0">
                              <img src="../../src/assets/images/development.png" alt="">
                       </div>
-                      <div class="mb-10 md:mb-0">
+                      <div class="mb-10 lg:mb-0">
                              <img src="../../src/assets/images/graphic.png" alt="">
                       </div>
-                      <div class="mb-10 md:mb-0">
+                      <div class="mb-10 lg:mb-0">
                              <img src="../../src/assets/images/development.png" alt="">
                       </div>
-                      <div class="mb-10 md:mb-0">
+                      <div class="mb-10 lg:mb-0">
                              <img src="../../src/assets/images/graphic.png" alt="">
                       </div>
+               </div>
                </div>
         </div>
 </template>
