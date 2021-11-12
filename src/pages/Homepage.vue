@@ -72,7 +72,7 @@
                      <p>Lorem ipsum dolor, sit amet consectetur</p>
               </div> -->
               <!-- Content Story -->
-              <div class="w-full h-auto pt-20 px-5 md:pt-40 flex pb-24 text-white flex-col md:flex-row md:px-32 brand-secondary-color">
+              <div class="w-full h-auto pt-20 px-5 md:pt-40 flex pb-20 text-white flex-col md:flex-row md:px-32 brand-secondary-color">
                      <!-- Heading -->
                      <div class="w-full md:w-1/2">
                             <h1 class="font-extrabold md:leading-snug leading-tight text-left text-5xl">We Will Help Your Plans With Design</h1>
@@ -84,9 +84,9 @@
                      </div>
               </div>
               <!-- Partner -->
-              <div class="brand-secondary-color w-full flex-col md:flex-row h-auto py-16 flex  md:px-24">
+              <div class="brand-secondary-color w-full flex-col md:flex-row h-auto flex md:px-24">
                      <div class="w-full md:w-1/2">
-                            <h1 class="font-extrabold pt-16 leading-tight px-5 md:leading-snug text-white text-left text-5xl">We Have Collaborated With</h1>
+                            <h1 class="font-extrabold md:pt-16 leading-tight px-5 md:leading-snug text-white text-left text-5xl">We Have Collaborated With</h1>
                      </div>
                      <div class="w-full md:w-1/2 flex h-auto">
                             <div class="w-full">
