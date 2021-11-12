@@ -75,12 +75,11 @@
                      <p>Lorem ipsum dolor, sit amet consectetur</p>
               </div> -->
               <!-- Content Story -->
-              <div class="w-full h-auto pt-20 px-5 lg:pt-40 flex pb-20 text-white flex-col lg:flex-row lg:px-32 brand-secondary-color" style="min-width: 1440px;">
+              <div class="w-full h-auto pt-20 px-5 lg:pt-40 flex pb-20 text-white flex-col lg:flex-row lg:px-32 brand-secondary-color">
                      <!-- Heading -->
                      <div class="w-full lg:w-1/2">
                             <h1 class="font-extrabold lg:leading-snug leading-tight text-left text-5xl">We Will Help Your Plans With Design</h1>
                      </div>
-                     <!-- Subtitle -->
                      <div class="w-full lg:w-1/2">
                             <p class="leading-normal pt-6 text-left lg:pl-3 lg:pt-3 text-xl lg:px-0">Magna do elit duis reprehenderit. Anim qui sint deserunt deserunt proident excepteur cupidatat excepteur. elit duis reprehenderit. Anim qui sint deserunt deserunt proident excepteur cupidatat excepteur.</p>
                             <p class="text-right pt-10 text-lg lg:pt-5 font-medium">Read our story</p>
