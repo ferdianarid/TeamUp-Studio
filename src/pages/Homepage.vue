@@ -99,6 +99,29 @@
                             </div>
                      </div>
               </div>
+              <!-- Provide Service -->
+              <div class="w-full brand-secondary-color py-12 bg-secondary-color h-auto">
+               <div class="flex flex-col mx-5 md:grid md:grid-cols-3 md:gap-7 md:ml-28 md:mr-28">
+                      <div class="">
+                             <h1 class="my-10 md:pt-4 md:leading-snug text-white text-left text-5xl font-extrabold">We can help you with</h1>
+                      </div>
+                      <div class="mb-10 md:mb-0">
+                             <img src="../../src/assets/images/graphic.png" alt="">
+                      </div>
+                      <div class="mb-10 md:mb-0">
+                             <img src="../../src/assets/images/development.png" alt="">
+                      </div>
+                      <div class="mb-10 md:mb-0">
+                             <img src="../../src/assets/images/graphic.png" alt="">
+                      </div>
+                      <div class="mb-10 md:mb-0">
+                             <img src="../../src/assets/images/development.png" alt="">
+                      </div>
+                      <div class="mb-10 md:mb-0">
+                             <img src="../../src/assets/images/graphic.png" alt="">
+                      </div>
+               </div>
+        </div>
 </template>
 
 <script>
