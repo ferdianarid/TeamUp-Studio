@@ -75,8 +75,10 @@
                      <p>Lorem ipsum dolor, sit amet consectetur</p>
               </div> -->
               <!-- Content Story -->
-              <div class="w-full h-auto pt-20 px-5 lg:pt-40 flex pb-20 text-white flex-col lg:flex-row lg:px-32 brand-secondary-color">
+              <div class="w-full h-auto pt-20 px-5 lg:pt-40 flex pb-20 text-white flex-col lg:flex brand-secondary-color">
+                     <div id="container">
                      <!-- Heading -->
+                     <div class="lg:flex">
                      <div class="w-full lg:w-1/2">
                             <h1 class="font-extrabold lg:leading-snug leading-tight text-left text-5xl">We Will Help Your Plans With Design</h1>
                      </div>
@@ -84,9 +86,12 @@
                             <p class="leading-normal pt-6 text-left lg:pl-3 lg:pt-3 text-xl lg:px-0">Magna do elit duis reprehenderit. Anim qui sint deserunt deserunt proident excepteur cupidatat excepteur. elit duis reprehenderit. Anim qui sint deserunt deserunt proident excepteur cupidatat excepteur.</p>
                             <p class="text-right pt-10 text-lg lg:pt-5 font-medium">Read our story</p>
                      </div>
+                     </div>
               </div>
               <!-- Partner -->
-              <div class="brand-secondary-color w-full flex-col lg:flex-row h-auto flex lg:px-24">
+              <div class="brand-secondary-color w-full flex-col lg:flex h-auto flex">
+                     <div id="container">
+                            <div class="lg:flex">
                      <div class="w-full lg:w-1/2">
                             <h1 class="font-extrabold lg:pt-16 leading-tight px-5 lg:leading-snug text-white text-left text-5xl">We Have Collaborated With</h1>
                      </div>
@@ -100,13 +105,16 @@
                                    <img class="w-full" src="../../src/assets/images/youtube.png" alt="">
                             </div>
                      </div>
+                     </div>
               </div>
               <!-- Provide Service -->
               <div class="w-full brand-secondary-color py-12 bg-secondary-color h-auto">
-               <div class="flex flex-col mx-5 lg:grid lg:grid-cols-3 lg:gap-7 lg:ml-28 lg:mr-28">
-                      <div class="">
+                     <div id="container">
+               <div class="flex flex-col mx-5 lg:grid lg:grid-cols-3 lg:gap-7">
+                      <div>
                              <h1 class="my-10 lg:pt-4 lg:leading-snug text-white text-left text-5xl font-extrabold">We can help you with</h1>
-                      </div>
+                     </div>
+                      
                       <div class="mb-10 lg:mb-0">
                              <img src="../../src/assets/images/graphic.png" alt="">
                       </div>
@@ -122,9 +130,43 @@
                       <div class="mb-10 lg:mb-0">
                              <img src="../../src/assets/images/graphic.png" alt="">
                       </div>
+               </div>
+               </div>
+               </div>
                </div>
                </div>
         </div>
+        <!-- Portfolio -->
+        <div class="brand-secondary-color w-full h-auto">
+               <div id="container">
+                            <!-- <div class="lg:flex"> -->
+              <h1 class="pt-4 leading-snug text-white text-left text-5xl font-extrabold pb-7">Our Works</h1>
+              <div class="cardd flex text-white uppercase">
+                     <div class="w-1/2 mr-4">
+                            <img class="h-80" src="../../src/assets/images/laptop.png" alt="">
+                            <p class="category pt-5">Dashboard, Desktop, UI Design</p>
+                            <p class="capitalize font-extrabold text-2xl">Dashboard Accounting</p>
+                     </div>
+                     <div class="w-1/2" style="display: flex;">
+                            <div class="card-image w-1/2 mr-1">
+                                   <img class="h-80" src="../../src/assets/images/skilled.png" alt="">
+                            <p class="pt-5">Mobile, UI Design, IOS</p>
+                            <p class="capitalize font-extrabold text-2xl">Skilled UI Design</p>
+                            </div>
+                            <div class="w-1/2">
+                                   <img class="h-80" src="../../src/assets/images/phone.png" alt="">
+                            <p class="category pt-5">Mobile, UI Design, IOS</p>
+                            <p class="capitalize font-extrabold text-2xl">Greenbarn Apps</p>
+                            </div>
+                     </div>
+                     </div>
+                     </div>
+                     <div class="text-center mx-auto">
+                     <button class="lg:my-10 button-secondary p-4 pl-12 pr-12 rounded-md">
+                            <p class="text-2xl font-semibold text-white"> More Projects </p>
+                     </button>
+                     </div>
+              </div>
 </template>
 
 <script>

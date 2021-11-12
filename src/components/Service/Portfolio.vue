@@ -1,25 +1,5 @@
 <template>
-       <div class="portfolio w-full h-auto pt-16 pb-16">
-              <h1 data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1000" data-aos-delay="500" class="portfolio-heading pt-4 leading-snug text-white text-left text-5xl font-extrabold pb-7">Our Works</h1>
-              <div class="portfolios flex text-white uppercase">
-                     <div data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="1000" data-aos-delay="700" class="single card-image w-1/2 mr-4">
-                            <img src="../../assets/images/laptop.png" alt="">
-                            <p class="category pt-5">Dashboard, Desktop, UI Design</p>
-                            <p class="capitalize font-extrabold text-2xl">Dashboard Accounting</p>
-                     </div>
-                     <div class="duoCard w-1/2" style="display: flex;">
-                            <div data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="1000" data-aos-delay="1000" class="card-image w-1/2 mr-1">
-                                   <img src="../../assets/images/skilled.png" alt="">
-                            <p class="category pt-5">Mobile, UI Design, IOS</p>
-                            <p class="capitalize font-extrabold text-2xl">Skilled UI Design</p>
-                            </div>
-                            <div data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="1000" data-aos-delay="1300" class="card-image w-1/2">
-                                   <img src="../../assets/images/phone.png" alt="">
-                            <p class="category pt-5">Mobile, UI Design, IOS</p>
-                            <p class="capitalize font-extrabold text-2xl">Greenbarn Apps</p>
-                            </div>
-                     </div>
-              </div>
+       
               <div class="w-full text-center h-auto mt-2">
                      <ButtonSecondary />
               </div>
