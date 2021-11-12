@@ -34,8 +34,8 @@
               <!-- Hero Component -->
               <div class="hero flex-col container w-full flex md:flex-row">
               <!-- Title and Subtitle -->
-                     <div class="heading w-full px-5 md:w-2/3 md:px-24 md:pt-16">
-                            <h1 class="title-headings leading-tight pt-14 text-5xl text-white font-extrabold">We help you to visualize your business.</h1>
+                     <div class="heading w-full px-5 md:w-2/3 md:px-24 md:pt-24">
+                            <h1 class="leading-tight pt-14 text-5xl text-white font-extrabold">We help you to visualize your business.</h1>
                             <p class="leading-normal pt-5 paragraph text-white text-xl font-medium">Magna do elit duis reprehenderit. Anim qui sint deserunt deserunt proident excepteur cupidatat excepteur. proident excepteur cupidatat excepteur.</p>
                             <!-- Button Contact Us -->
                             <button class="mt-12 button-main p-4 pl-12 pr-12 rounded-md bg-blue-500">
@@ -43,11 +43,62 @@
                             </button>
                      </div>
                      <!-- Image Illustration -->
-                     <div class="illustration md:w-1/3 pt-16 pb-5">
+                     <div class="pl-8 pr-14 py-20 md:px-0 md:w-1/3 md:pt-24 md:pb-5">
                             <img src="../../src/assets/images/scarrerrow.png" alt="" srcset="">
                      </div>
               </div>
+              <!-- World Banner -->
+              <div class="w-full text-center mt-5 font-bold md:text-3xl pb-5 md:px-40 md:mt-40">
+              <img class="px-10 md:px-0" src="../../src/assets/images/world.png" alt="world image" srcset="">
+              <div class="w-full h-48 mt-10 grid grid-cols-3 px-10 md:px-0">
+                     <div class="text-white counter">
+                            <p class="text-3xl md:text-5xl">100</p>
+                            <p class="paragraph">Clients</p>
+                     </div>
+                     <div class="text-white counter">
+                            <p class="text-3xl md:text-5xl">150</p>
+                            <p class="paragraph">Projects</p>
+                     </div>
+                     <div class="text-white counter">
+                            <p class="text-3xl md:text-5xl">10</p>
+                            <p class="paragraph">Country</p>
+                     </div>
+              </div>
        </div>
+       </div>
+              <!-- Card Pop Up -->
+              <!-- <div class="card w-1/3 bg-white h-auto rounded-lg p-4 text-left shadow-xl">
+                     <h1 class="text-2xl font-bold pb-3">Lorem, ipsum.</h1>
+                     <p>Lorem ipsum dolor, sit amet consectetur</p>
+              </div> -->
+              <!-- Content Story -->
+              <div class="w-full h-auto pt-20 px-5 md:pt-40 flex pb-24 text-white flex-col md:flex-row md:px-32 brand-secondary-color">
+                     <!-- Heading -->
+                     <div class="w-full md:w-1/2">
+                            <h1 class="font-extrabold md:leading-snug leading-tight text-left text-5xl">We Will Help Your Plans With Design</h1>
+                     </div>
+                     <!-- Subtitle -->
+                     <div class="w-full md:w-1/2">
+                            <p class="leading-normal pt-6 text-left md:pl-3 md:pt-3 text-xl md:px-0">Magna do elit duis reprehenderit. Anim qui sint deserunt deserunt proident excepteur cupidatat excepteur. elit duis reprehenderit. Anim qui sint deserunt deserunt proident excepteur cupidatat excepteur.</p>
+                            <p class="text-right pt-10 text-lg md:pt-5 font-medium">Read our story</p>
+                     </div>
+              </div>
+              <!-- Partner -->
+              <div class="brand-secondary-color w-full flex-col md:flex-row h-auto py-16 flex  md:px-24">
+                     <div class="w-full md:w-1/2">
+                            <h1 class="font-extrabold pt-16 leading-tight px-5 md:leading-snug text-white text-left text-5xl">We Have Collaborated With</h1>
+                     </div>
+                     <div class="w-full md:w-1/2 flex h-auto">
+                            <div class="w-full">
+                                   <img class="w-full" src="../../src/assets/images/spotify.png" alt="">
+                                   <img class="w-full" src="../../src/assets/images/youtube.png" alt="">
+                            </div>
+                            <div class="w-full">
+                                   <img class="w-full" src="../../src/assets/images/spotify.png" alt="">
+                                   <img class="w-full" src="../../src/assets/images/youtube.png" alt="">
+                            </div>
+                     </div>
+              </div>
 </template>
 
 <script>
@@ -74,5 +125,8 @@ export default {
 }
 .background-color {
        background-image: linear-gradient(to top,#122658,#38354E);
+}
+.our-story:hover > .card {
+       display: block;
 }
 </style>
