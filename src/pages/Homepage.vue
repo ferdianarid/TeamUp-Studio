@@ -89,7 +89,7 @@
                      </div>
               </div>
               <!-- Partner -->
-              <div class="brand-secondary-color w-full flex-col lg:flex h-auto flex">
+              <div class="brand-secondary-color w-full flex-col lg:flex h-auto flex pt-10 md:pt-5">
                      <div id="container">
                             <div class="lg:flex">
                      <div class="w-full lg:w-1/2">
@@ -139,32 +139,42 @@
         <!-- Portfolio -->
         <div class="brand-secondary-color w-full h-auto">
                <div id="container">
-                            <!-- <div class="lg:flex"> -->
-              <h1 class="pt-4 leading-snug text-white text-left text-5xl font-extrabold pb-7">Our Works</h1>
-              <div class="cardd flex text-white uppercase">
-                     <div class="w-1/2 mr-4">
+              <h1 class="mx-5 md:mx-0 pt-4 leading-snug text-white text-left text-5xl font-extrabold pb-7">Our Works</h1>
+              <div class="mx-5 md:mx-0 flex-col md:flex md:flex-row text-white uppercase">
+                     <div class="w-full md:w-1/2 md:mr-4 mb-10 md:mb-0">
                             <img class="h-80" src="../../src/assets/images/laptop.png" alt="">
                             <p class="category pt-5">Dashboard, Desktop, UI Design</p>
                             <p class="capitalize font-extrabold text-2xl">Dashboard Accounting</p>
                      </div>
-                     <div class="w-1/2" style="display: flex;">
-                            <div class="card-image w-1/2 mr-1">
-                                   <img class="h-80" src="../../src/assets/images/skilled.png" alt="">
+                     <div class="w-full flex-col md:flex-row md:w-1/2" style="display: flex;">
+                            <div class="w-full md:w-1/2 mr-0 md:mr-5 mb-10 md:mb-0">
+                                   <img class="w-full h-auto md:h-80" src="../../src/assets/images/skilled.png" alt="">
                             <p class="pt-5">Mobile, UI Design, IOS</p>
                             <p class="capitalize font-extrabold text-2xl">Skilled UI Design</p>
                             </div>
-                            <div class="w-1/2">
-                                   <img class="h-80" src="../../src/assets/images/phone.png" alt="">
+                            <div class="w-full md:w-1/2 mr-0 mb-10 md:mb-0">
+                                   <img class="h-auto w-full md:h-80" src="../../src/assets/images/phone.png" alt="">
                             <p class="category pt-5">Mobile, UI Design, IOS</p>
                             <p class="capitalize font-extrabold text-2xl">Greenbarn Apps</p>
                             </div>
-                     </div>
                      </div>
                      </div>
                      <div class="text-center mx-auto">
                      <button class="lg:my-10 button-secondary p-4 pl-12 pr-12 rounded-md">
                             <p class="text-2xl font-semibold text-white"> More Projects </p>
                      </button>
+                     </div>
+                     </div>
+                     <div id="container">
+                            <div class="flex flex-col md:flex-row md:justify-between md:items-center mx-5 pb-10 md:mx-0 mt-16">
+                                   <div class="h-56 mb-5">
+                                          <h1 class="font-extrabold leading-snug text-white text-left text-5xl">What Our Clients <br> Said ?</h1>
+                                   </div>
+                                   <div class="h-56 px-10 text-white bg-gray-800 flex flex-col text-left justify-center items-center">
+                                          <h1 class="text-2xl font-extrabold pb-3">Users Testimonial</h1>
+                                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, magni?</p>
+                                   </div>
+                            </div>
                      </div>
               </div>
 </template>
