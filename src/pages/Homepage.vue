@@ -176,8 +176,8 @@
                                    </div>
                             </div>
                             </div>
-                            <div class="contact w-full text-center py-32">
                                    <div id="container">
+                            <div class="contact w-full text-center py-32">
                                    <!-- Title Content -->
                                    <h1 class="pt-5leading-snug text-white text-5xl font-extrabold">Let's Work Together !</h1>
                                    <!-- Subtitle Content -->
