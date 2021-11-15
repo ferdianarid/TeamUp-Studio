@@ -166,7 +166,7 @@
                      </div>
                      </div>
                      <div id="container">
-                            <div class="flex flex-col md:flex-row md:justify-between md:items-center mx-5 pb-10 md:mx-0 mt-16">
+                            <div class="flex flex-col md:flex-row md:justify-between md:items-center mx-5 pb-16 md:mx-0 mt-16">
                                    <div class="h-56 mb-5">
                                           <h1 class="font-extrabold leading-snug text-white text-left text-5xl">What Our Clients <br> Said ?</h1>
                                    </div>
@@ -175,8 +175,37 @@
                                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, magni?</p>
                                    </div>
                             </div>
-                     </div>
-              </div>
+                            </div>
+                            <div class="contact w-full text-center py-32">
+                                   <div id="container">
+                                   <!-- Title Content -->
+                                   <h1 class="pt-5leading-snug text-white text-5xl font-extrabold">Let's Work Together !</h1>
+                                   <!-- Subtitle Content -->
+                                   <p class="text-white pt-3">You can hire of team or individuals.</p>
+                                   <!-- Button Light -->
+                                   <button class="mt-12 p-4 pl-12 pr-12  bg-white rounded-md text-dark">
+                                          <p class="text-2xl font-medium"> Contact Us </p>
+                                   </button>
+                                   </div>
+                            </div>
+                                   <div id="container">
+                            <div class="footer flex flex-col md:flex-row  pb-16 justify-between w-full h-auto pt-16 text-white">
+                                          <div class="w-full px-5 md:px-0 md:w-1/2">
+                                          <h1 class="leading-snug text-5xl text-white font-extrabold">TeamUp Studio</h1>
+                                          <p class="paragraph leading-8 pt-4">
+                                          Teamup Studio is a creative digital studio who focused on UI/UX Design, Illustration, Branding and Graphic Design. 
+                                          </p>
+                                          <p class="pt-7 font-extrabold">Jl. Puntodewo No.07, Krajan, Wedomartani, Sleman, Yogyakarta, Indonesia</p>
+                                          </div>
+                                          <div class="w-full px-5 md:px-0 md:w-1/2 md:ml-auto pt-12">
+                                                 <p>Email Address</p>
+                                                 <p class="font-extrabold">hello@teamupstudio.id</p>
+                                                 <p class="pt-7">Instagram</p>
+                                                 <p class="font-extrabold">@teamupstudio.id</p>
+                                          </div>
+                                   </div>
+                                   </div>
+                            </div>
 </template>
 
 <script>
